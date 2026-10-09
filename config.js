@@ -13,8 +13,8 @@ window.RESA_CONFIG = {
 
   // Compteurs affichés en mode statique — à mettre à jour à la main (modifiable directement sur github.com)
   compteurs: {
-    demandes: 45,      // demandes en cours
-    confirmees: 2,     // réservations confirmées
+    demandes: 32,      // demandes en cours
+    confirmees: 15,     // réservations confirmées
     pris: { standard: 9, suite: 0 }  // bungalows déjà attribués (pour « Bungalows encore disponibles »)
   },
 
