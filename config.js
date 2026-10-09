@@ -47,13 +47,13 @@ window.RESA_CONFIG = {
       nom: "Bungalow Standard",
       prix: 136000, stock: 42, capacite: 2,
       texte: "Un bungalow confortable et moderne, idéal pour un séjour agréable en toute simplicité. Petit-déjeuner inclus pour 2.",
-      photo: "img/bungalow-standard.jpg"
+      photo: "bungalow-standard.jpg"
     },
     suite: {
       nom: "Bungalow Suite",
       prix: 250000, stock: 5, capacite: 4,
       texte: "Un espace plus spacieux et élégant, avec un salon privé pour un confort absolu. Petit-déjeuner inclus pour 2.",
-      photo: "img/bungalow-suite.jpg"
+      photo: "bungalow-suite.jpg"
     }
   }
 };
