@@ -15,7 +15,7 @@ window.RESA_CONFIG = {
   compteurs: {
     demandes: 32,      // demandes en cours
     confirmees: 15,     // réservations confirmées
-    pris: { standard: 9, suite: 0 }  // bungalows déjà attribués (pour « Bungalows encore disponibles »)
+    pris: { standard: 15, suite: 0 }  // bungalows déjà attribués (pour « Bungalows encore disponibles »)
   },
 
   // PayPal : identifiant de votre lien paypal.me (https://www.paypal.me/tchakap)
