@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Réservez votre bungalow · Mariage Yannita 2026</title>
+<meta name="description" content="Réservation des bungalows du Tagidor à tarif négocié pour les invités du mariage Yannita, le 24 octobre 2026.">
+<meta name="theme-color" content="#14100c">
+<meta name="color-scheme" content="dark">
+<meta name="format-detection" content="telephone=no">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="config.js"></script>
+<style>
+:root{
+  --bg:#14100c; --bg2:#1c1712; --panel:rgba(28,22,16,.82); --panel-solid:#211a13;
+  --line:rgba(201,164,92,.28); --line-soft:rgba(255,255,255,.08);
+  --gold:#c9a45c; --gold-2:#e2c487; --gold-ink:#1b140b;
+  --text:#f4ede2; --muted:#c2b6a4; --dim:#a39783;
+  --red:#c62f3a; --ok:#4fae7b;
+  --serif:"Playfair Display",Georgia,serif; --sans:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);isolation:isolate;color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--gold-2)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 max(20px,env(safe-area-inset-right)) 0 max(20px,env(safe-area-inset-left))}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--gold-2);outline-offset:2px}
+body:has(dialog[open]){overflow:hidden}
+svg.i{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* ---------- HERO ---------- */
+body::before{content:"";position:fixed;top:0;left:0;width:100%;height:100lvh;z-index:-2;background:url("img/hero.jpg") 58% 40%/cover no-repeat}
+body::after{content:"";position:fixed;top:0;left:0;width:100%;height:100lvh;z-index:-1;
+  background:linear-gradient(90deg,rgba(20,16,12,.8) 0%,rgba(20,16,12,.32) 50%,rgba(20,16,12,.12) 100%),linear-gradient(180deg,rgba(20,16,12,0) 60%,rgba(20,16,12,.35) 100%)}
+@media (max-width:980px){body::before{background-position:60% 50%}body::after{background:rgba(20,16,12,.5)}}
+.hero{position:relative;padding:28px 0 40px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:start}
+.brand{display:flex;flex-direction:column;align-items:flex-start;gap:2px;margin-bottom:34px}
+.brand svg.brand-mark{width:44px;height:44px;color:var(--gold)}
+.brand-name{font-family:var(--serif);letter-spacing:.32em;color:var(--gold);font-size:15px}
+.brand-sub{font-size:9.5px;letter-spacing:.3em;color:var(--dim);text-transform:uppercase}
+.eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:600}
+h1{font-family:var(--serif);font-weight:600;font-size:clamp(40px,6vw,64px);line-height:1.04;margin:14px 0 16px}
+.lead{color:var(--muted);max-width:430px;margin:0}
+
+.side{display:grid;gap:12px}
+.cd-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.cd{padding:14px 16px}
+.cd-head{display:flex;gap:10px;align-items:center;color:var(--gold);font-size:13px}
+.cd-head span{color:var(--text)}
+.cd-nums{display:grid;grid-template-columns:repeat(4,1fr);text-align:center;margin-top:10px}
+.cd-nums b{display:block;font-family:var(--serif);font-size:24px;font-weight:600}
+.cd-nums small{font-size:11px;color:var(--muted)}
+.cd-foot{text-align:center;font-size:12px;color:var(--muted);margin-top:8px;padding-top:8px;border-top:1px solid var(--line-soft)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);padding:12px 6px}
+.stat{display:flex;gap:10px;align-items:flex-start;padding:2px 10px;border-left:1px solid var(--line-soft)}
+.stat:first-child{border-left:0}
+.stat svg{color:var(--gold);margin-top:4px}
+.stat b{font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.1;display:block}
+.stat small{font-size:11.5px;color:var(--muted);display:block;line-height:1.3}
+.stat .hot{color:#ff6b6b}
+.pill-red{display:inline-block;white-space:nowrap;margin-top:5px;background:var(--red);color:#fff;font-size:10.5px;padding:2px 8px;border-radius:99px}
+
+/* ---------- SEARCH ---------- */
+.search{margin-top:26px;display:grid;grid-template-columns:auto 1.2fr 1.2fr .9fr .9fr auto;gap:14px;align-items:end;padding:16px 18px}
+.search .cal{width:42px;height:42px;border:1px solid var(--line);border-radius:10px;display:grid;place-items:center;color:var(--gold);align-self:end}
+.f label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+.f input,.f select,.f textarea{width:100%;min-height:46px;font-size:16px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:11px 12px;transition:border-color .15s;-webkit-appearance:none;appearance:none}
+.f input[aria-invalid=true],.f fieldset[aria-invalid=true] .seg label{border-color:#ff8a8a}
+.f input:focus,.f select:focus,.f textarea:focus{border-color:var(--gold)}
+.f input[type=date]{color-scheme:dark;display:block;text-align:left;line-height:1.3}
+.f input[type=date]::-webkit-date-and-time-value{text-align:left}
+.f input[type=date]::-webkit-calendar-picker-indicator{opacity:.85;cursor:pointer}
+.f select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--gold) 50%),linear-gradient(135deg,var(--gold) 50%,transparent 50%);background-position:calc(100% - 16px) 50%,calc(100% - 11px) 50%;background-size:5px 5px;background-repeat:no-repeat}
+.f select option{background:var(--panel-solid)}
+.btn{min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:10px;padding:13px 20px;font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;text-decoration:none;transition:filter .15s,transform .05s}
+.btn:active{transform:translateY(1px)}
+.btn-gold{background:linear-gradient(180deg,var(--gold-2),var(--gold));color:var(--gold-ink)}
+.btn-gold:hover{filter:brightness(1.06)}
+.btn-ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+.btn[disabled]{opacity:.55;cursor:not-allowed}
+
+/* ---------- OFFERS ---------- */
+.offers{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+.offer{display:grid;grid-template-columns:1fr 1fr;overflow:hidden;background:var(--panel-solid)}
+.offer-photo{position:relative;min-height:240px;background:linear-gradient(135deg,#3a2a19,#20170e);background-size:cover;background-position:center}
+.offer-photo .ph{position:absolute;inset:0;display:grid;place-items:center;color:rgba(201,164,92,.35)}
+.offer-photo .ph svg{width:56px;height:56px}
+.badge{position:absolute;top:12px;left:12px;background:var(--red);color:#fff;border-radius:8px;padding:6px 10px;font-size:12px;font-weight:600;display:flex;gap:6px;align-items:center;line-height:1.2}
+.badge small{display:block;font-weight:400;opacity:.9;font-size:10.5px}
+.avail-chip{position:absolute;left:12px;bottom:12px;background:rgba(20,16,12,.8);border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-size:12px;display:flex;gap:6px;align-items:center}
+.offer-body{padding:20px;display:flex;flex-direction:column;gap:10px}
+.offer-body h3{font-family:var(--serif);font-size:24px;font-weight:600;margin:0}
+.offer-body p{margin:0;color:var(--muted);font-size:13.5px}
+.feat{display:flex;gap:9px;align-items:center;font-size:13px;color:var(--muted)}
+.feat svg{color:var(--gold);width:18px;height:18px}
+.price{font-family:var(--serif);font-size:30px;font-weight:600;margin-top:auto}
+.price small{font-family:var(--sans);font-size:15px;color:var(--muted);font-weight:400}
+.offer .btn{width:100%}
+
+.assur{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:26px 0 10px;padding:18px 20px}
+.assur div{display:flex;gap:12px;align-items:center;font-size:13px;color:var(--muted)}
+.assur svg{color:var(--gold);width:28px;height:28px}
+footer{text-align:center;color:var(--muted);font-size:14px;padding:24px 0 calc(40px + env(safe-area-inset-bottom))}
+footer a{display:inline-block;padding:10px 4px}
+
+/* ---------- DIALOG ---------- */
+dialog{border:0;padding:0;background:transparent;color:var(--text);max-width:640px;width:calc(100% - 24px);max-height:calc(100dvh - 24px)}
+dialog.fallback{position:fixed;inset:0;z-index:50;margin:auto;height:fit-content;box-shadow:0 0 0 100vmax rgba(8,6,4,.72)}
+dialog::backdrop{background:rgba(8,6,4,.72);backdrop-filter:blur(3px)}
+.sheet{background:var(--panel-solid);border:1px solid var(--line);border-radius:18px;display:flex;flex-direction:column;max-height:calc(100dvh - 24px);overflow:hidden}
+.sheet-head,.steps,.sheet-foot,#step-sr{flex:none}
+.sheet-head{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid var(--line-soft)}
+.sheet-head h2{font-family:var(--serif);font-size:22px;margin:0;font-weight:600}
+.x{background:none;border:0;color:var(--muted);cursor:pointer;width:44px;height:44px;margin:-10px -12px -10px 0;display:grid;place-items:center;border-radius:10px}
+.x:hover{color:var(--text)}
+.steps{display:flex;gap:6px;padding:12px 22px 0}
+.steps i{flex:1;height:3px;border-radius:3px;background:var(--line-soft)}
+.steps i.on{background:var(--gold)}
+.sheet-body{flex:1 1 auto;min-height:0;padding:18px 22px;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.sheet-foot{padding:14px 22px calc(18px + env(safe-area-inset-bottom));border-top:1px solid var(--line-soft);display:flex;gap:10px;justify-content:space-between;align-items:center}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.f,.f input,.f select{min-width:0}
+.f{margin-bottom:12px}
+.req{color:var(--gold)}
+fieldset{border:0;margin:0 0 12px;padding:0;min-width:0}
+legend{font-size:12px;color:var(--muted);margin-bottom:6px;padding:0}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.seg,.pay{position:relative}
+.seg input,.pay input{position:absolute;left:0;top:0;width:1px;height:1px;opacity:0;pointer-events:none}
+.seg label{min-height:46px;display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:8px;text-align:center;cursor:pointer;font-size:13.5px;margin:0;color:var(--text)}
+.seg input:checked+label{border-color:var(--gold);background:rgba(201,164,92,.12)}
+.seg input:focus-visible+label{outline:2px solid var(--gold-2)}
+.summary{background:rgba(201,164,92,.07);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-top:6px}
+.summary .row{display:flex;justify-content:space-between;gap:12px;font-size:13.5px;color:var(--muted);padding:3px 0}
+.summary .tot{color:var(--text);font-weight:600;font-size:16px;border-top:1px solid var(--line);margin-top:6px;padding-top:9px}
+.summary .tot b{font-family:var(--serif);font-size:20px;color:var(--gold-2)}
+.err{color:#ff8a8a;font-size:13px;margin:8px 0 0;min-height:1em}
+
+.pay{display:grid;gap:12px}
+.pay input{position:absolute;opacity:0;pointer-events:none}
+.pay label{display:flex;gap:14px;align-items:center;border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:14px 16px;cursor:pointer}
+.pay input:checked+label{border-color:var(--gold);background:rgba(201,164,92,.1)}
+.pay input:focus-visible+label{outline:2px solid var(--gold-2)}
+.logo{width:46px;height:46px;border-radius:10px;display:grid;place-items:center;font-weight:700;font-size:13px;flex:none}
+.logo.pp{background:#fff;color:#003087}
+.logo.om{background:#ff7900;color:#000}
+.logo.momo{background:#ffcb05;color:#00335f;font-size:11px;line-height:1.05;text-align:center}
+.pay strong{display:block;font-size:15px}
+.pay small{color:var(--muted);font-size:12.5px}
+.pay .amt{margin-left:auto;text-align:right;font-family:var(--serif);font-size:16px;white-space:nowrap}
+
+.done-head{text-align:center;padding:4px 0 10px}
+.done-head .ok{width:54px;height:54px;border-radius:50%;background:rgba(79,174,123,.15);color:var(--ok);display:grid;place-items:center;margin:0 auto 10px}
+.done-head h3{font-family:var(--serif);font-size:24px;margin:0 0 4px;font-weight:600}
+.ref{display:inline-block;font-family:ui-monospace,Menlo,monospace;letter-spacing:.12em;background:rgba(201,164,92,.12);border:1px dashed var(--gold);border-radius:8px;padding:5px 12px;color:var(--gold-2);font-size:16px}
+.box{border:1px solid var(--line);border-radius:12px;padding:16px;margin-top:14px}
+.box h4{margin:0 0 10px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.box ol{margin:0;padding-left:20px;color:var(--muted);font-size:14px}
+.box ol li{margin:6px 0}
+.box ol b{color:var(--text)}
+.copy{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.04);border:1px solid var(--line-soft);border-radius:10px;padding:8px 8px 8px 12px;margin:8px 0;font-family:ui-monospace,Menlo,monospace;font-size:15px}
+.copy span{flex:1;overflow-wrap:anywhere;font-size:clamp(13px,3.6vw,15px)}
+.copy button{min-height:40px;min-width:64px;background:rgba(201,164,92,.18);border:0;border-radius:8px;padding:8px 12px;color:var(--gold-2);cursor:pointer;font-family:var(--sans);font-size:12px;font-weight:600}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.btn-row .btn{flex:1 1 200px}
+.btn-wa{background:#25d366;color:#06240f}
+.btn-pp{background:#ffc439;color:#111}
+.note{font-size:12.5px;color:var(--dim);margin-top:10px}
+.warn{background:rgba(198,47,58,.12);border:1px solid rgba(198,47,58,.4);border-radius:10px;padding:10px 12px;font-size:13px;color:#ffb3b3;margin-top:12px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(20px);background:var(--gold-2);color:var(--gold-ink);padding:9px 16px;border-radius:99px;font-weight:600;font-size:13px;opacity:0;transition:.2s;pointer-events:none;z-index:99}
+.toast.on{opacity:1;transform:translateX(-50%)}
+.hidden{display:none!important}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr}
+  .search{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .search .cal{display:none}
+  .search .btn{grid-column:1/-1}
+  .offers{grid-template-columns:1fr}
+  .assur{grid-template-columns:1fr 1fr}
+}
+@media (max-width:560px){
+  .wrap{padding:0 16px}
+  .brand{margin-bottom:22px}
+  .cd-row{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr;gap:10px;padding:14px}
+  .stat{border-left:0;padding:0}
+  .offer{grid-template-columns:1fr}
+  .offer-photo{min-height:200px}
+  .grid3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .grid2.st{grid-template-columns:1fr}
+  .assur{grid-template-columns:1fr}
+  .sheet-foot .btn{flex:1}
+  dialog{width:100%;max-width:none;margin:auto 0 0;max-height:100dvh}
+  dialog.fallback{margin:auto 0 0}
+  .sheet{border-radius:18px 18px 0 0;max-height:94dvh;border-bottom:0}
+  .sheet-head,.sheet-body,.steps{padding-left:18px;padding-right:18px}
+  .sheet-foot{padding-left:18px;padding-right:18px}
+  h1{font-size:clamp(34px,10vw,44px)}
+  .cd-nums b{font-size:22px}
+}
+@media (max-width:374px){.search,.grid2{grid-template-columns:1fr}.seg{grid-template-columns:1fr}.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}.search{padding:14px}.pay label{flex-wrap:wrap}.pay .amt{margin-left:60px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></symbol>
+  <symbol id="i-ring" viewBox="0 0 24 24"><circle cx="12" cy="14" r="7"/><path d="M9 4h6l-1.5 3h-3z"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 13l3 3 5-6M8 2v4M16 2v4"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18V7M3 13h18v5M21 13a3 3 0 0 0-3-3h-7v3"/><circle cx="7" cy="10.5" r="1.5"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c.6-3.4 3-5 6-5s5.4 1.6 6 5"/><circle cx="17" cy="9" r="2.4"/><path d="M16 14.6c2.6.1 4.3 1.6 4.9 4.4"/></symbol>
+  <symbol id="i-fire" viewBox="0 0 24 24"><path d="M12 22c4 0 7-2.6 7-6.6 0-3-1.8-5.4-3.6-7-.3 1.7-1.2 3-2.4 3.6.4-3.4-1-6.8-4-9 .2 3-1.6 5-3.2 7C4.6 11.6 5 13.6 5 15.4 5 19.4 8 22 12 22z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.3 8-8 9-4.7-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18M7 15h4"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-ok" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></symbol>
+  <symbol id="i-logo" viewBox="0 0 48 48"><path d="M24 4l9 13-9 13-9-13z"/><path d="M24 10l5 7-5 7-5-7z"/><path d="M10 38h28M14 44h20M24 30v8"/></symbol>
+</svg>
+
+<main class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="brand">
+          <svg class="brand-mark i" aria-hidden="true" focusable="false" viewBox="0 0 48 48" style="stroke-width:1.4"><use href="#i-logo"/></svg>
+          <span class="brand-name">TAGIDOR</span>
+          <span class="brand-sub">Luxury Resort &amp; Spa</span>
+        </div>
+        <div class="eyebrow">Mariage Yannita 2026</div>
+        <h1>Réservez votre<br>bungalow</h1>
+        <p class="lead">Profitez d'un séjour inoubliable avec des tarifs négociés spécialement pour les invités du mariage.</p>
+      </div>
+
+      <div class="side">
+        <div class="cd-row">
+          <div class="card cd">
+            <div class="cd-head"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-cal"/></svg><span>Fin des réservations et paiements</span></div>
+            <div class="cd-nums" data-countdown="dateLimite" aria-hidden="true"></div><p class="sr-only" data-sr="dateLimite"></p>
+            <div class="cd-foot" id="lbl-limite"></div>
+          </div>
+          <div class="card cd">
+            <div class="cd-head"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-ring"/></svg><span>Jour du mariage</span></div>
+            <div class="cd-nums" data-countdown="dateMariage" aria-hidden="true"></div><p class="sr-only" data-sr="dateMariage"></p>
+            <div class="cd-foot" id="lbl-mariage"></div>
+          </div>
+        </div>
+        <div class="card stats" id="stats">
+          <div class="stat"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-doc"/></svg><div><b class="hot" id="st-dem">–</b><small>Demandes en cours</small><span class="pill-red hidden" id="st-new"></span></div></div>
+          <div class="stat"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><div><b id="st-conf">–</b><small>Réservations confirmées</small></div></div>
+          <div class="stat"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-bed"/></svg><div><b id="st-dispo">–</b><small>Bungalows encore disponibles</small></div></div>
+        </div>
+      </div>
+    </div>
+
+    <form class="card search" id="search" novalidate>
+      <div class="cal" aria-hidden="true"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-cal"/></svg></div>
+      <div class="f" style="margin:0"><label for="s-in">Date d'arrivée <span class="req" aria-hidden="true">*</span></label><input type="date" id="s-in" required></div>
+      <div class="f" style="margin:0"><label for="s-out">Date de départ <span class="req" aria-hidden="true">*</span></label><input type="date" id="s-out" required></div>
+      <div class="f" style="margin:0"><label for="s-ad">Adultes</label><select id="s-ad"></select></div>
+      <div class="f" style="margin:0"><label for="s-ch">Enfants</label><select id="s-ch"></select></div>
+      <button class="btn btn-gold" type="submit">Voir les disponibilités <svg class="i" aria-hidden="true" focusable="false" style="width:16px;height:16px"><use href="#i-arrow"/></svg></button>
+    </form>
+
+    <h2 class="sr-only" id="offers-title">Logements disponibles</h2>
+    <section class="offers" id="offers" aria-labelledby="offers-title"></section>
+
+    <div class="card assur">
+      <div><svg class="i" aria-hidden="true" focusable="false"><use href="#i-heart"/></svg>Tarifs négociés pour les invités</div>
+      <div><svg class="i" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>Réservation simple et sécurisée</div>
+      <div><svg class="i" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span id="lbl-paylimit">Paiement possible jusqu'au 18 octobre</span></div>
+      <div><svg class="i" aria-hidden="true" focusable="false"><use href="#i-card"/></svg>PayPal, Orange Money ou MTN MoMo</div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Une question ? <a id="wa-help" href="#" target="_blank" rel="noopener">Écrivez-nous sur WhatsApp<span class="sr-only"> (ouvre WhatsApp)</span></a></div>
+</footer>
+
+<!-- ============ BOOKING DIALOG ============ -->
+<dialog id="dlg" aria-labelledby="dlg-title">
+  <div class="sheet">
+    <div class="sheet-head">
+      <h2 id="dlg-title" tabindex="-1">Réserver</h2>
+      <button class="x" type="button" id="dlg-close" aria-label="Fermer"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+    </div>
+    <div class="steps" aria-hidden="true"><i></i><i></i><i></i></div>
+    <p class="sr-only" id="step-sr" aria-live="polite"></p>
+
+    <!-- STEP 1 -->
+    <form id="step1" class="sheet-body" novalidate>
+      <div class="grid2 st">
+        <div class="f"><label for="b-nom">Nom <span class="req" aria-hidden="true">*</span></label><input id="b-nom" autocomplete="family-name" required></div>
+        <div class="f"><label for="b-prenom">Prénom <span class="req" aria-hidden="true">*</span></label><input id="b-prenom" autocomplete="given-name" required></div>
+      </div>
+      <div class="grid2 st">
+        <div class="f"><label for="b-tel">Téléphone WhatsApp <span class="req" aria-hidden="true">*</span></label><input id="b-tel" type="tel" aria-describedby="tel-hint" inputmode="tel" autocomplete="tel" placeholder="+237 6… ou +33 6…" required><span class="sr-only" id="tel-hint">Avec l'indicatif du pays, par exemple +237 ou +33</span></div>
+        <div class="f"><label for="b-mail">Email</label><input id="b-mail" type="email" autocomplete="email" inputmode="email" placeholder="facultatif"></div>
+      </div>
+      <fieldset class="f" id="cote-set">
+        <legend>Vous êtes invité(e) du côté <span class="req" aria-hidden="true">*</span><span class="sr-only"> (obligatoire)</span></legend>
+        <div class="seg">
+          <input type="radio" name="cote" id="c1" value="Mariée"><label for="c1">de la mariée</label>
+          <input type="radio" name="cote" id="c2" value="Marié"><label for="c2">du marié</label>
+          <input type="radio" name="cote" id="c3" value="Commun"><label for="c3">des deux</label>
+        </div>
+      </fieldset>
+      <div class="grid2">
+        <div class="f"><label for="b-in">Arrivée <span class="req" aria-hidden="true">*</span></label><input type="date" id="b-in" required></div>
+        <div class="f"><label for="b-out">Départ <span class="req" aria-hidden="true">*</span></label><input type="date" id="b-out" required></div>
+      </div>
+      <div class="grid3">
+        <div class="f"><label for="b-qty">Bungalows</label><select id="b-qty"></select></div>
+        <div class="f"><label for="b-ad">Adultes</label><select id="b-ad"></select></div>
+        <div class="f"><label for="b-ch">Enfants</label><select id="b-ch"></select></div>
+      </div>
+      <div class="f"><label for="b-msg">Demandes particulières</label><textarea id="b-msg" rows="2" placeholder="Lit bébé, arrivée tardive, voisin de…"></textarea></div>
+      <div class="summary" id="sum1"></div>
+      <p class="err" id="err1" role="alert"></p>
+    </form>
+
+    <!-- STEP 2 -->
+    <form id="step2" class="sheet-body hidden" novalidate>
+      <fieldset class="pay" id="pay-set">
+        <legend style="font-size:15px;margin-bottom:14px">Comment souhaitez-vous régler ?</legend>
+        <input type="radio" name="pay" id="p-om" value="Orange Money">
+        <label for="p-om"><span class="logo om" aria-hidden="true">OM</span><span><strong>Orange Money</strong><small>Transfert depuis un numéro Orange Cameroun</small></span><span class="amt" id="amt-om"></span></label>
+        <input type="radio" name="pay" id="p-momo" value="MTN Mobile Money">
+        <label for="p-momo"><span class="logo momo" aria-hidden="true">MTN<br>MoMo</span><span><strong>MTN Mobile Money</strong><small>Transfert depuis un numéro MTN Cameroun</small></span><span class="amt" id="amt-momo"></span></label>
+        <input type="radio" name="pay" id="p-pp" value="PayPal">
+        <label for="p-pp"><span class="logo pp" aria-hidden="true">Pay<br>Pal</span><span><strong>PayPal</strong><small>Carte bancaire ou compte PayPal, depuis l'étranger</small></span><span class="amt" id="amt-pp"></span></label>
+      </fieldset>
+      <div class="summary" id="sum2" style="margin-top:16px"></div>
+      <p class="note">En validant, votre demande est transmise aux organisateurs. Le bungalow est confirmé à réception du paiement, au plus tard le <span class="lbl-lim-short"></span>.</p>
+      <p class="err" id="err2" role="alert"></p>
+    </form>
+
+    <!-- STEP 3 -->
+    <div id="step3" class="sheet-body hidden"></div>
+
+    <div class="sheet-foot" id="foot">
+      <button class="btn btn-ghost" type="button" id="back">Retour</button>
+      <button class="btn btn-gold" type="button" id="next">Continuer <svg class="i" aria-hidden="true" focusable="false" style="width:16px;height:16px"><use href="#i-arrow"/></svg></button>
+    </div>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(() => {
+  const C = window.RESA_CONFIG;
+  const $ = s => document.querySelector(s);
+  const fmt = n => new Intl.NumberFormat('fr-FR').format(n).replace(/ | /g, ' ');
+  const eur = xaf => Math.ceil(xaf / C.xafParEuro * 100) / 100;
+  const fmtEur = n => n.toLocaleString('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
+  const dLong = iso => new Date(iso).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Africa/Douala' });
+  const dShort = s => { const [y, m, d] = s.split('-'); return `${d}/${m}`; };
+  const nights = (a, b) => Math.round((Date.parse(b) - Date.parse(a)) / 864e5);
+  const opts = (sel, from, to, val) => { sel.innerHTML = ''; for (let i = from; i <= to; i++) sel.add(new Option(i, i, false, i === val)); };
+  const toast = msg => { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); setTimeout(() => t.classList.remove('on'), 1600); };
+  const waDigits = C.whatsapp.replace(/\D/g, '');
+  const waLink = text => `https://wa.me/${waDigits}?text=${encodeURIComponent(text)}`;
+  const configured = v => v && !/X{3,}/.test(v);
+  const UA = navigator.userAgent;
+  const isIOS = /iPad|iPhone|iPod/.test(UA) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const isAndroid = /Android/i.test(UA);
+  const plural = (n, w) => `${n} ${w}${n > 1 ? 's' : ''}`;
+
+  /* ---------- Countdowns ---------- */
+  $('#lbl-limite').textContent = dLong(C.dateLimite);
+  $('#lbl-mariage').textContent = dLong(C.dateMariage);
+  $('#lbl-paylimit').textContent = `Paiement possible jusqu'au ${dLong(C.dateLimite).replace(/ \d{4}$/, '')}`;
+  document.querySelectorAll('.lbl-lim-short').forEach(e => e.textContent = dLong(C.dateLimite));
+  const tick = () => document.querySelectorAll('[data-countdown]').forEach(el => {
+    let s = Math.max(0, Math.floor((Date.parse(C[el.dataset.countdown]) - Date.now()) / 1000));
+    const v = [Math.floor(s / 86400), Math.floor(s % 86400 / 3600), Math.floor(s % 3600 / 60), s % 60];
+    el.innerHTML = v.map((n, i) => `<div><b>${String(n).padStart(2, '0')}</b><small>${['Jours', 'Heures', 'Minutes', 'Secondes'][i]}</small></div>`).join('');
+    const sr = document.querySelector(`[data-sr="${el.dataset.countdown}"]`), txt = `Encore ${plural(v[0], 'jour')} et ${plural(v[1], 'heure')}.`;
+    if (sr && sr.textContent !== txt) sr.textContent = txt;
+  });
+  tick(); setInterval(tick, 1000);
+  const closed = () => Date.now() > Date.parse(C.dateLimite);
+
+  /* ---------- Search bar ---------- */
+  const S = C.sejour;
+  for (const id of ['#s-in', '#s-out', '#b-in', '#b-out']) { $(id).min = S.min; $(id).max = S.max; }
+  $('#s-in').value = S.arriveeDefaut; $('#s-out').value = S.departDefaut;
+  opts($('#s-ad'), 1, 8, 2); opts($('#s-ch'), 0, 6, 0);
+  $('#search').addEventListener('submit', e => { e.preventDefault(); $('#offers').scrollIntoView({ block: 'start' }); });
+
+  /* ---------- Offers ---------- */
+  let stats = null;
+  const left = k => stats?.restants?.[k] ?? C.logements[k].stock;
+  function renderOffers() {
+    $('#offers').innerHTML = Object.entries(C.logements).map(([k, L]) => {
+      const r = left(k), week = stats?.semaine?.[k] || 0;
+      const full = r <= 0 || closed();
+      return `<article class="card offer">
+        <div class="offer-photo" data-photo="${L.photo}" role="img" aria-label="Photo : ${L.nom}">
+          <div class="ph" aria-hidden="true"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-home"/></svg></div>
+          ${week >= 3 && !full ? `<div class="badge"><svg class="i" aria-hidden="true" focusable="false" style="width:16px;height:16px"><use href="#i-fire"/></svg><div>${r <= 5 ? 'Très demandé' : 'Forte demande'}<small>${week} demandes cette semaine</small></div></div>` : ''}
+          ${r <= 5 && r > 0 ? `<div class="avail-chip"><svg class="i" aria-hidden="true" focusable="false" style="width:15px;height:15px"><use href="#i-bed"/></svg>${r} disponible${r > 1 ? 's' : ''}</div>` : ''}
+        </div>
+        <div class="offer-body">
+          <h3>${L.nom}</h3>
+          <p>${L.texte}</p>
+          <div class="feat"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-bed"/></svg>${r > 0 ? `${r} bungalow${r > 1 ? 's' : ''} disponible${r > 1 ? 's' : ''}` : 'Complet'}</div>
+          <div class="feat"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-users"/></svg>Jusqu'à ${L.capacite} personnes</div>
+          <div class="price">${fmt(L.prix)} FCFA <small>/ nuit</small></div>
+          <button class="btn btn-gold" data-book="${k}" aria-label="${closed() ? 'Réservations closes' : full ? L.nom + ' complet' : 'Réserver le ' + L.nom}" ${full ? 'disabled' : ''}>${closed() ? 'Réservations closes' : full ? 'Complet' : 'Réserver'} <svg class="i" aria-hidden="true" focusable="false" style="width:16px;height:16px"><use href="#i-arrow"/></svg></button>
+        </div></article>`;
+    }).join('');
+    document.querySelectorAll('[data-photo]').forEach(el => {
+      const img = new Image();
+      img.onload = () => { el.style.backgroundImage = `url("${el.dataset.photo}")`; el.querySelector('.ph')?.remove(); };
+      img.src = el.dataset.photo;
+    });
+  }
+  renderOffers();
+
+  const staticStats = () => {
+    const K = C.compteurs || { demandes: 0, confirmees: 0, pris: {} }, restants = {};
+    for (const k in C.logements) restants[k] = Math.max(0, C.logements[k].stock - ((K.pris || {})[k] || 0));
+    return { demandes: K.demandes, confirmees: K.confirmees, aujourdhui: 0, restants, semaine: {} };
+  };
+  (C.api ? fetch(`${C.api}/reservation`, { headers: { accept: 'application/json' } }).then(r => r.ok ? r.json() : Promise.reject())
+         : Promise.resolve(staticStats()))
+    .then(d => {
+      stats = d;
+      $('#st-dem').textContent = d.demandes; $('#st-conf').textContent = d.confirmees;
+      $('#st-dispo').textContent = Object.keys(C.logements).reduce((a, k) => a + left(k), 0);
+      if (d.aujourdhui > 0) { $('#st-new').textContent = `${d.aujourdhui} nouvelle${d.aujourdhui > 1 ? 's' : ''} aujourd'hui`; $('#st-new').classList.remove('hidden'); }
+      renderOffers();
+    })
+    .catch(() => {
+      $('#st-dispo').textContent = Object.values(C.logements).reduce((a, L) => a + L.stock, 0);
+      $('#st-dem').textContent = '–'; $('#st-conf').textContent = '–';
+    });
+
+  $('#wa-help').href = waLink('Bonjour, j\'ai une question sur l\'hébergement pour le mariage Yannita.');
+
+  /* ---------- Booking flow ---------- */
+  const dlg = $('#dlg');
+  if (typeof dlg.showModal !== 'function') { // iOS < 15.4
+    dlg.showModal = () => { dlg.setAttribute('open', ''); dlg.classList.add('fallback'); };
+    dlg.close = () => { dlg.removeAttribute('open'); };
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && dlg.hasAttribute('open')) dlg.close(); });
+  let room = null, step = 1, sending = false, lastResa = null;
+
+  function current() {
+    const L = C.logements[room];
+    const qty = +$('#b-qty').value, ad = +$('#b-ad').value, ch = +$('#b-ch').value;
+    const a = $('#b-in').value, b = $('#b-out').value, n = a && b ? nights(a, b) : 0;
+    const total = n > 0 ? L.prix * n * qty : 0;
+    return { L, qty, ad, ch, a, b, n, total };
+  }
+  function renderSummary() {
+    const x = current();
+    const html = `
+      <div class="row"><span>${x.L.nom} × ${x.qty}</span><span>${fmt(x.L.prix)} FCFA / nuit</span></div>
+      <div class="row"><span>${x.n > 0 ? `Du ${dShort(x.a)} au ${dShort(x.b)}` : 'Dates'}</span><span>${x.n > 0 ? `${x.n} nuit${x.n > 1 ? 's' : ''}` : '—'}</span></div>
+      <div class="row"><span>Voyageurs</span><span>${x.ad} adulte${x.ad > 1 ? 's' : ''}${x.ch ? `, ${x.ch} enfant${x.ch > 1 ? 's' : ''}` : ''}</span></div>
+      <div class="row tot"><span>Total</span><span><b>${fmt(x.total)} FCFA</b></span></div>
+      <div class="row" style="justify-content:flex-end;font-size:12.5px">soit ${fmtEur(eur(x.total))}</div>`;
+    $('#sum1').innerHTML = html; $('#sum2').innerHTML = html;
+    $('#amt-om').textContent = $('#amt-momo').textContent = `${fmt(x.total)} F`; $('#amt-pp').textContent = fmtEur(eur(x.total));
+  }
+  function syncQty() {
+    const L = C.logements[room], max = Math.max(1, Math.min(5, left(room)));
+    const q = Math.min(+$('#b-qty').value || 1, max);
+    opts($('#b-qty'), 1, max, q);
+    const ad = Math.min(+$('#b-ad').value || 1, L.capacite * q);
+    opts($('#b-ad'), 1, L.capacite * q, ad);
+  }
+  function show(s) {
+    step = s;
+    ['#step1', '#step2', '#step3'].forEach((id, i) => $(id).classList.toggle('hidden', i + 1 !== s));
+    document.querySelectorAll('.steps i').forEach((el, i) => el.classList.toggle('on', i < s));
+    $('#dlg-title').textContent = ['Vos informations', 'Paiement', 'Réservation enregistrée'][s - 1];
+    $('#back').classList.toggle('hidden', s !== 2);
+    $('#next').innerHTML = s === 1 ? 'Continuer <svg class="i" aria-hidden="true" focusable="false" style="width:16px;height:16px"><use href="#i-arrow"/></svg>' : s === 2 ? 'Valider ma réservation' : 'Fermer';
+    $('#foot').style.justifyContent = s === 2 ? 'space-between' : 'flex-end';
+    $('.sheet-body:not(.hidden)').scrollTop = 0;
+    $('#step-sr').textContent = `Étape ${s} sur 3 : ${$('#dlg-title').textContent}`;
+    if (dlg.hasAttribute('open')) $('#dlg-title').focus({ preventScroll: true });
+  }
+  function open(k) {
+    room = k;
+    $('#b-in').value = $('#s-in').value || S.arriveeDefaut;
+    $('#b-out').value = $('#s-out').value || S.departDefaut;
+    const L = C.logements[k], wantAd = +$('#s-ad').value;
+    $('#b-qty').innerHTML = '<option>' + Math.max(1, Math.ceil(wantAd / L.capacite)) + '</option>';
+    $('#b-ad').innerHTML = `<option>${wantAd}</option>`;
+    syncQty();
+    opts($('#b-ch'), 0, 6, +$('#s-ch').value);
+    $('#err1').textContent = $('#err2').textContent = '';
+    renderSummary(); show(1);
+    dlg.showModal();
+    setTimeout(() => $('#dlg-title').focus({ preventScroll: true }), 30);
+  }
+  document.addEventListener('click', e => { const b = e.target.closest('[data-book]'); if (b) open(b.dataset.book); });
+  $('#dlg-close').onclick = () => dlg.close();
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+  $('#step1').addEventListener('input', renderSummary);
+  $('#step1').addEventListener('change', e => { if (e.target.id === 'b-qty') syncQty(); renderSummary(); });
+  $('#back').onclick = () => show(1);
+  $('#step1').addEventListener('submit', e => { e.preventDefault(); $('#next').click(); });
+
+  function validate1() {
+    const x = current(), tel = $('#b-tel').value.replace(/[^\d+]/g, '');
+    if (!$('#b-nom').value.trim()) return ['Merci d\'indiquer votre nom.', 'b-nom'];
+    if (!$('#b-prenom').value.trim()) return ['Merci d\'indiquer votre prénom.', 'b-prenom'];
+    if (tel.replace(/\D/g, '').length < 8) return ['Merci d\'indiquer un numéro WhatsApp valide (avec indicatif, ex. +237 ou +33).', 'b-tel'];
+    const mail = $('#b-mail').value.trim();
+    if (mail && !/^\S+@\S+\.\S+$/.test(mail)) return ['L\'adresse email semble incorrecte.', 'b-mail'];
+    if (!document.querySelector('[name=cote]:checked')) return ['Merci de préciser de quel côté vous êtes invité(e).', 'cote-set', 'c1'];
+    if (!x.a || !x.b || x.n < 1) return ['La date de départ doit être après la date d\'arrivée.', 'b-out'];
+    if (x.a < S.min || x.b > S.max) return [`Les réservations sont possibles entre le ${dShort(S.min)} et le ${dShort(S.max)}.`, 'b-in'];
+    return ['', null];
+  }
+
+  $('#next').onclick = async () => {
+    if (step === 1) {
+      document.querySelectorAll('#step1 [aria-invalid]').forEach(el => el.removeAttribute('aria-invalid'));
+      const [err, id, focusId] = validate1(); $('#err1').textContent = err;
+      if (err) { const el = $('#' + id); el.setAttribute('aria-invalid', 'true'); if (el.tagName !== 'FIELDSET') el.setAttribute('aria-describedby', 'err1'); $('#' + (focusId || id)).focus(); return; }
+      show(2);
+      return;
+    }
+    if (step === 3) { dlg.close(); return; }
+    // step 2 → submit
+    const pay = document.querySelector('[name=pay]:checked');
+    if (!pay) { $('#err2').textContent = 'Choisissez un moyen de paiement.'; $('#p-om').focus(); return; }
+    if (sending) return; sending = true;
+    $('#next').disabled = true; $('#next').textContent = 'Envoi en cours…'; $('#err2').textContent = '';
+    const x = current();
+    const resa = {
+      nom: $('#b-nom').value.trim(), prenom: $('#b-prenom').value.trim(),
+      telephone: $('#b-tel').value.trim(), email: $('#b-mail').value.trim(),
+      cote: document.querySelector('[name=cote]:checked').value,
+      logement: room, quantite: x.qty, adultes: x.ad, enfants: x.ch,
+      arrivee: x.a, depart: x.b, message: $('#b-msg').value.trim(), paiement: pay.value
+    };
+    let res = null;
+    try {
+      if (C.api) {
+        const r = await fetch(`${C.api}/reservation`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(resa) });
+        res = await r.json().catch(() => null);
+        if (!r.ok) { $('#err2').textContent = res?.error || 'Une erreur est survenue. Réessayez ou contactez-nous sur WhatsApp.'; return; }
+      }
+    } catch { res = null; }
+    finally { sending = false; $('#next').disabled = false; if (step === 2) $('#next').textContent = 'Valider ma réservation'; }
+    // Sans serveur (mode statique ou serveur injoignable) : référence générée ici, le message WhatsApp fait foi.
+    const ref = res?.ref || 'YT-' + Array.from(crypto.getRandomValues(new Uint8Array(4)), b => 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'[b % 32]).join('');
+    lastResa = { ...resa, ref, total: x.total, nuits: x.n, saved: !!res?.ref, statique: !C.api };
+    if (!C.api && C.web3formsKey) notifyEmail(lastResa);
+    renderDone(lastResa); show(3);
+  };
+
+  // Alerte email en mode statique (Web3Forms) — n'empêche jamais la suite si elle échoue
+  function notifyEmail(r) {
+    const L = C.logements[r.logement];
+    const body = {
+      access_key: C.web3formsKey,
+      subject: `🏡 Réservation ${r.ref} — ${r.prenom} ${r.nom} — ${L.nom} × ${r.quantite}`,
+      from_name: 'Réservations mariage Yannita',
+      'Référence': r.ref, 'Invité': `${r.prenom} ${r.nom}`, 'Côté': r.cote,
+      'Téléphone': r.telephone, 'WhatsApp de l\'invité': `https://wa.me/${r.telephone.replace(/^\s*00/, '+').replace(/\D/g, '').replace(/^(6\d{8})$/, '237$1').replace(/^0([67]\d{8})$/, '33$1')}`,
+      'Logement': `${L.nom} × ${r.quantite}`, 'Dates': `du ${dShort(r.arrivee)} au ${dShort(r.depart)} (${r.nuits} nuit${r.nuits > 1 ? 's' : ''})`,
+      'Voyageurs': `${r.adultes} adulte(s), ${r.enfants} enfant(s)`,
+      'Total': `${fmt(r.total)} FCFA (${fmtEur(eur(r.total))})`, 'Paiement choisi': r.paiement,
+      'Demandes particulières': r.message || '—', botcheck: ''
+    };
+    if (r.email) body.email = r.email;
+    fetch('https://api.web3forms.com/submit', { method: 'POST', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify(body), keepalive: true })
+      .catch(() => {});
+  }
+
+  function recap(r) {
+    const L = C.logements[r.logement];
+    return `Bonjour, je viens de réserver pour le mariage Yannita 🎉\n` +
+      `Réf : ${r.ref}\nNom : ${r.prenom} ${r.nom}\n` +
+      `${L.nom} × ${r.quantite} — du ${dShort(r.arrivee)} au ${dShort(r.depart)} (${r.nuits} nuit${r.nuits > 1 ? 's' : ''})\n` +
+      `${r.adultes} adulte(s), ${r.enfants} enfant(s)\n` +
+      `Total : ${fmt(r.total)} FCFA (${fmtEur(eur(r.total))})\nPaiement : ${r.paiement}\n` +
+      (r.message ? `Demande : ${r.message}\n` : '') +
+      `\nJe vous envoie la capture de mon paiement ci-dessous 👇`;
+  }
+
+  function copyRow(label, value, display) {
+    return `<div class="copy"><span>${display || value}</span><button type="button" data-copy="${value}" aria-label="Copier ${label}">Copier</button></div>`;
+  }
+  function benef(t) {
+    return t ? `Vérifiez que le bénéficiaire affiché est <b>${t}</b>, puis validez avec votre code secret.` : 'Vérifiez le nom du bénéficiaire affiché, puis validez avec votre code secret.';
+  }
+  function renderDone(r) {
+    const amt = r.total, e = eur(amt);
+    let payBlock;
+    if (r.paiement === 'PayPal') payBlock = `
+      <div class="box"><h4>Payer avec PayPal</h4>
+        <ol>
+          <li>Appuyez sur le bouton ci-dessous : le montant de <b>${fmtEur(e)}</b> est déjà rempli.</li>
+          <li>Dans la note du paiement, indiquez votre référence <b>${r.ref}</b>.</li>
+          <li>Envoyez-nous la capture du paiement sur WhatsApp.</li>
+        </ol>
+        <div class="btn-row"><a class="btn btn-pp" href="https://www.paypal.me/${C.paypal}/${e.toFixed(2)}EUR" target="_blank" rel="noopener">Payer ${fmtEur(e)} avec PayPal<span class="sr-only"> (ouvre PayPal)</span></a></div>
+        <p class="note">Montant converti au taux fixe 1 € = ${String(C.xafParEuro).replace('.', ',')} FCFA (${fmt(amt)} FCFA).</p>
+      </div>`;
+    else if (r.paiement === 'Orange Money') {
+      const om = C.orangeMoney, ussd = `#150*1*1*${om.numero}*${amt}#`;
+      const dial = isIOS
+        ? `<p class="note">Sur iPhone : copiez le code, ouvrez l'application <b>Téléphone</b>, collez-le sur le clavier puis appuyez sur Appeler.</p>`
+        : `<div class="btn-row"><a class="btn btn-gold" href="tel:${encodeURIComponent(ussd)}">Composer le code</a></div>`;
+      payBlock = `
+      <div class="box"><h4>Payer avec Orange Money</h4>
+        <ol><li>Depuis votre téléphone Orange, composez ce code (numéro et montant déjà inclus) :</li></ol>
+        ${copyRow('le code Orange Money', ussd)}
+        ${dial}
+        <ol start="2">
+          <li>${benef(om.titulaire)}</li>
+          <li>Envoyez-nous la capture du SMS de confirmation sur WhatsApp.</li>
+        </ol>
+        <p class="note">Si le code ne passe pas : composez <b>#150#</b> → Transfert d'argent, puis saisissez le numéro et le montant ci-dessous. Les frais de transfert sont à la charge de l'expéditeur.</p>
+        ${copyRow('le numéro Orange Money', om.numero, 'N° ' + om.numero)}
+        ${copyRow('le montant', String(amt), fmt(amt) + ' FCFA')}
+      </div>`;
+    } else {
+      const mm = C.mtnMomo;
+      const dial = isIOS
+        ? `<p class="note">Sur iPhone : ouvrez l'application <b>Téléphone</b> et composez <b>*126#</b> sur le clavier.</p>`
+        : `<div class="btn-row"><a class="btn btn-gold" href="tel:${encodeURIComponent('*126#')}">Ouvrir le menu MoMo (*126#)</a></div>`;
+      payBlock = `
+      <div class="box"><h4>Payer avec MTN Mobile Money</h4>
+        <ol>
+          <li>Depuis votre téléphone MTN, composez <b>*126#</b>.</li>
+        </ol>
+        ${dial}
+        <ol start="2">
+          <li>Choisissez <b>Transfert d'argent</b>, puis saisissez ce numéro et ce montant :</li>
+        </ol>
+        ${copyRow('le numéro MTN Mobile Money', mm.numero, 'N° ' + mm.numero)}
+        ${copyRow('le montant', String(amt), fmt(amt) + ' FCFA')}
+        <ol start="3">
+          <li>${benef(mm.titulaire)}</li>
+          <li>Envoyez-nous la capture du SMS de confirmation sur WhatsApp.</li>
+        </ol>
+        <p class="note">Les frais de transfert sont à la charge de l'expéditeur.</p>
+      </div>`;
+    }
+    $('#step3').innerHTML = `
+      <div class="done-head">
+        <div class="ok" aria-hidden="true"><svg class="i" aria-hidden="true" focusable="false" style="width:28px;height:28px"><use href="#i-ok"/></svg></div>
+        <h3>Merci ${r.prenom} !</h3>
+        <p style="margin:0 0 10px;color:var(--muted)">Votre demande est enregistrée. Votre référence :</p>
+        <span class="ref" aria-label="Référence ${r.ref.split('').join(' ')}">${r.ref}</span>
+      </div>
+      ${payBlock}
+      <div class="box"><h4>Prévenir les organisateurs</h4>
+        <p style="margin:0;color:var(--muted);font-size:14px">Envoyez votre récapitulatif sur WhatsApp et joignez la capture de votre paiement : nous vous confirmerons la réservation par retour de message.</p>
+        <div class="btn-row"><a class="btn btn-wa" href="${waLink(recap(r))}" target="_blank" rel="noopener">Envoyer sur WhatsApp<span class="sr-only"> (ouvre WhatsApp)</span></a>
+        <button class="btn btn-ghost" type="button" data-copy="${encodeURIComponent(recap(r))}" data-enc>Copier le récapitulatif</button></div>
+        ${r.saved ? '' : r.statique
+          ? '<div class="warn" style="background:rgba(201,164,92,.1);border-color:var(--line);color:var(--gold-2)">Étape indispensable : votre réservation est prise en compte à réception de ce message WhatsApp.</div>'
+          : '<div class="warn">Notre serveur n\'a pas pu être joint : merci d\'envoyer impérativement ce message WhatsApp pour que votre réservation soit prise en compte.</div>'}
+      </div>`;
+  }
+
+  document.addEventListener('click', async e => {
+    const b = e.target.closest('[data-copy]'); if (!b) return;
+    const txt = b.hasAttribute('data-enc') ? decodeURIComponent(b.dataset.copy) : b.dataset.copy;
+    try { await navigator.clipboard.writeText(txt); toast('Copié'); }
+    catch { const t = document.createElement('textarea'); t.value = txt; document.body.append(t); t.select(); document.execCommand('copy'); t.remove(); toast('Copié'); }
+  });
+
+  if (!configured(C.whatsapp) || !configured(C.orangeMoney.numero)) console.warn('[réservation] Pensez à renseigner whatsapp et orangeMoney.numero dans config.js');
+  if (isAndroid) document.documentElement.classList.add('android');
+})();
+</script>
+</body>
+</html>
